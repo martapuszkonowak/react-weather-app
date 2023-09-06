@@ -44,3 +44,10 @@
   top: -34px;
   margin-left: 0px;
 }
+
+.Weather .float-left {
+  float: left !important;
+}
+.Weather .image {
+  width: 65px;
+}

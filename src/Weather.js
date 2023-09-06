@@ -49,11 +49,15 @@ export default function Weather(props) {
         </ul>
         <div className="row mt-3">
           <div className="col-6">
-            <div className="row">
-              <div className="col-3">
-                <img src={weatherData.iconUrl} alt={weatherData.description} />
+            <div className="clearfix">
+              <div className="float-left">
+                <img
+                  className="image"
+                  src={weatherData.iconUrl}
+                  alt={weatherData.description}
+                />
               </div>
-              <div className="col-9">
+              <div className="float-left">
                 <span className="temperature">
                   {Math.round(weatherData.temperature)}
                 </span>
