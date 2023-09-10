@@ -21,7 +21,15 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            open-sourced on GitHub
+            open-sourced on GitHubn{" "}
+          </a>
+          and is hosted on{" "}
+          <a
+            href="https://voluble-frangollo-7e9f68.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
           </a>
         </footer>
       </div>
