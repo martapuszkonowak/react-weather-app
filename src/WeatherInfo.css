@@ -1,3 +1,11 @@
+.WeatherInfo {
+  text-align: center;
+
+  @media (min-width: 576px) {
+    text-align: initial;
+  }
+}
+
 .WeatherInfo canvas {
   margin-right: 10px;
   margin-top: 5px;
