@@ -30,6 +30,12 @@ export default function Weather(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
+    // before searching check is value present
+    if (!city) {
+      alert("Please enter a city...");
+      return;
+    }
+
     search();
   }
 
