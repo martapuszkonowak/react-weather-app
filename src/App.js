@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="London" />
-        <footer>
+        <footer className="footer pb-3 pb-sm-0">
           This project was coded by{" "}
           <a
             href="https://glowing-monstera-0eb10c.netlify.app"
@@ -21,7 +21,7 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            open-sourced on GitHubn{" "}
+            open-sourced on GitHub{" "}
           </a>
           and is hosted on{" "}
           <a
